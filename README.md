@@ -1,6 +1,6 @@
 <h1>Andrew</h1>
 
-<h2>Fullstack Developer @Pipedrive</h2>
+<h2>Fullstack Software Engineer @Pipedrive</h2>
 
 <br />
 <p>
