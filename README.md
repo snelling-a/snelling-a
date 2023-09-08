@@ -1,61 +1,89 @@
-<h1>Andrew</h1>
+# andrew
 
-<h2>Fullstack Software Engineer @Pipedrive</h2>
+## fullstack developer @pipedrive
 
-<br />
-<p>
-<h3 align="center">Languages and Tools</h3>
-</p>
-<br />
-<p align="center">
-    <a href="https://www.w3.org/html/" target="_blank">
-        <img src="assets/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
-    </a>
-    <a href="https://www.w3schools.com/css/" target="_blank">
-        <img src="assets/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-        <img src="assets/javascript-original.svg" alt="javascript" width="40" height="40" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-        <img src="assets/Typescript_logo_2020.svg.png" alt="typescript" width="40" height="40" />
-    </a>
-    <a href="https://reactjs.org/" target="_blank">
-        <img src="assets/react.png" alt="react" width="40" height="40" />
-    </a>
-    <a href="https://nodejs.org/" target="_blank">
-        <img src="assets/logo-hexagon-card.png" alt="nodejs" width="40" height="40" />
-    </a>
-    <a href="https://code.visualstudio.com/" target="_blank">
-        <img src="assets/visual-studio-code.png" alt="Visual Studio Code" width="40" height="40" />
-    </a>
-    <a href="https://github.com/" target="_blank">
-        <img src="assets/github.png" alt="GitHub" width="40" height="40" />
-    </a>
-</p>
-<br />
+```typescript
+// me.ts
 
-<hr />
-<h3 align="center">Stats</h3>
-<p align="center">
-    <a href="https://github.com/snelling-a">
-        <img src="https://github-readme-stats.vercel.app/api?username=snelling-a&count_private=true&show_icons=true&hide=stars"
-            alt="github-stats" />
-    </a>
-    <br />
-    <a href="https://github.com/snelling-a">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=snelling-a&layout=compact"
-            alt="top-languages" />
-    </a>
-    <br />
-    <a href="https://www.codewars.com/users/snelling-a">
-        <img src="https://www.codewars.com/users/snelling-a/badges/large" alt="codewars-badge" />
-    </a>
-</p>
+class Andrew extends SoftwareEngineer {
+    constructor (
+        private readonly terminal: WezTerm,
+        public editor: Neovim
+    )
 
-<hr />
-<h3>📚 Blog posts</h3>
-    <a
-        href="https://medium.com/pipedrive-engineering/meet-andrew-snelling-a-high-school-teacher-now-full-stack-developer-4736be79ccd6">Meet
-            Andrew Snelling: a high school teacher now full-stack developer</a>
-</ul>
+    public job() {
+        wakeUp()
+
+        this.openTerminal()
+
+        this.openEditor()
+
+        work()
+
+        return Pipedrive
+    }
+
+    private openTerminal() {
+        return this.terminal
+    }
+
+    private openEditor() {
+        return this.editor
+    }
+
+}
+```
+
+```lua
+-- me.lua
+
+--- @class SoftwareEngineer
+--- @field name string
+--- @field editor string
+--- @field get_neovim_config fun(self: SoftwareEngineer): string
+local M = {}
+
+function M:new(name, editor)
+	self = setmetatable({
+		name = name,
+		editor = editor or "nvim",
+	}, {
+		__index = self,
+	})
+	self.name = name
+	self.editor = editor
+
+	return self
+end
+
+function M:get_neovim_config()
+	local config_url = string.format("https://github.com/%s/%s", self.name, self.editor)
+
+	return config_url
+end
+
+local andrew = M:new("snelling-a")
+local nvim_config = andrew:get_neovim_config()
+
+print(nvim_config) -- https://github.com/snelling-a/nvim
+
+return M
+```
+
+```bash
+#!/usr/bin/env bash
+# env.sh
+# downloads dotfiles and sets up the dev environment
+
+DOTFILES="$HOME/dotfiles"
+git clone git@github.com:snelling-a/dotfiles.git "$DOTFILES"
+
+"$DOTFIELS/install.sh"
+
+echo "Installing node..."
+echo "Installing typescript..."
+echo "Installing deno..."
+echo "Installing lua..."
+
+echo "Happy hacking!"
+```
