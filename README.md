@@ -87,3 +87,6 @@ echo "Installing lua..."
 
 echo "Happy hacking!"
 ```
+
+[**octo ring**](https://octo-ring.com/)  
+[[prev](https://octo-ring.com/p/hedyhli/prev)]  [[random](https://octo-ring.com/p/hedyhli/random)]  [[next](https://octo-ring.com/p/hedyhli/next)]
