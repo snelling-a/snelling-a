@@ -34,42 +34,6 @@ class Andrew extends SoftwareEngineer {
 }
 ```
 
-```lua
--- me.lua
-
---- @class SoftwareEngineer
---- @field name string
---- @field editor string
---- @field get_neovim_config fun(self: SoftwareEngineer): string
-local M = {}
-
-function M:new(name, editor)
-	self = setmetatable({
-		name = name,
-		editor = editor or "nvim",
-	}, {
-		__index = self,
-	})
-	self.name = name
-	self.editor = editor
-
-	return self
-end
-
-function M:get_neovim_config()
-	local config_url = string.format("https://github.com/%s/%s", self.name, self.editor)
-
-	return config_url
-end
-
-local andrew = M:new("snelling-a")
-local nvim_config = andrew:get_neovim_config()
-
-print(nvim_config) -- https://github.com/snelling-a/nvim
-
-return M
-```
-
 ```bash
 #!/usr/bin/env bash
 # env.sh
