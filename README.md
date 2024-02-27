@@ -1,6 +1,6 @@
 # andrew
 
-## fullstack developer @pipedrive
+## fullstack developer
 
 ```typescript
 // me.ts
