@@ -19,8 +19,6 @@ class Andrew extends SoftwareEngineer {
         this.openEditor()
 
         work()
-
-        return Pipedrive
     }
 
     private openTerminal() {
