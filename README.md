@@ -7,7 +7,7 @@
 
 class Andrew extends SoftwareEngineer {
     constructor (
-        private readonly terminal: WezTerm,
+        private readonly terminal: Ghostty,
         public editor: Neovim
     )
 
