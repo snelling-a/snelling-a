@@ -6,7 +6,7 @@
 
 ---
 
-### 🏗️ Current Focus
+## 🏗️ Current Focus
 
 - 🗂️ **MetadataTypes** → scalable metadata engine for [Obsidian](https://obsidian.md/plugins)
 - 🎹 **Neovim** → building a lean, fast, Lua-first config
@@ -14,17 +14,16 @@
 
 ---
 
-### 📈 GitHub Stats
+## 📈 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=snelling-a&show_icons=true&theme=github_dark&include_all_commits=true&custom_title=Andrew's%20GitHub%20Stats)
 
-### 🛠️ Tech Toolbox
 
 `TypeScript` `React` `NestJS` `Fastify` `GraphQL` `Obsidian API` `vite` `Lua`
 
 ---
 
-### 📬 Connect
+## 📬 Connect
 
 <!-- - 📝 [My Obsidian Plugins & Scripts](https://github.com/YOURUSERNAME) -->
 
