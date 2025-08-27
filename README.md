@@ -1,54 +1,31 @@
-# andrew
+# Hi, I'm Andrew 👋
 
-## fullstack developer
+🚀 Fullstack Developer @ContractHero  
+⚡ TypeScript | React | NestJS | Fastify | GraphQL  
+🛠 Building **MetadataTypes** (performance-focused Obsidian plugin)
 
-```typescript
-// me.ts
+---
 
-class Andrew extends SoftwareEngineer {
-    constructor (
-        private readonly terminal: Ghostty,
-        public editor: Neovim
-    )
+### 🏗️ Current Focus
 
-    public job() {
-        wakeUp()
+- 🗂️ **MetadataTypes** → scalable metadata engine for [Obsidian](https://obsidian.md/plugins)
+- 🎹 **Neovim** → building a lean, fast, Lua-first config
+- 💼 **ContractHero** → shipping features in a TypeScript + NestJS stack
 
-        this.openTerminal()
+---
 
-        this.openEditor()
+### 📈 GitHub Stats
 
-        work()
-    }
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=snelling-a&show_icons=true&theme=github_dark&include_all_commits=true&custom_title=Andrew's%20GitHub%20Stats)
 
-    private openTerminal() {
-        return this.terminal
-    }
+### 🛠️ Tech Toolbox
 
-    private openEditor() {
-        return this.editor
-    }
+`TypeScript` `React` `NestJS` `Fastify` `GraphQL` `Obsidian API` `vite` `Lua`
 
-}
-```
+---
 
-```bash
-#!/usr/bin/env bash
-# env.sh
-# downloads dotfiles and sets up the dev environment
+### 📬 Connect
 
-DOTFILES="$HOME/dotfiles"
-git clone git@github.com:snelling-a/dotfiles.git "$DOTFILES"
+<!-- - 📝 [My Obsidian Plugins & Scripts](https://github.com/YOURUSERNAME) -->
 
-"$DOTFIELS/install.sh"
-
-echo "Installing node..."
-echo "Installing typescript..."
-echo "Installing deno..."
-echo "Installing lua..."
-
-echo "Happy hacking!"
-```
-
-[**octo ring**](https://octo-ring.com/)  
-[[prev](https://octo-ring.com/p/hedyhli/prev)]  [[random](https://octo-ring.com/p/hedyhli/random)]  [[next](https://octo-ring.com/p/hedyhli/next)]
+- 💼 [LinkedIn](https://linkedin.com/in/snelling-andrew)
