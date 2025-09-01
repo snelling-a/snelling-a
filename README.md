@@ -9,6 +9,7 @@
 - 🗂️ **MetadataTypes** → scalable metadata engine for [Obsidian](https://obsidian.md/plugins)
 - 🎹 **Neovim** → building a lean, fast, Lua-first config
 - 💼 **ContractHero** → shipping features in a TypeScript + NestJS stack
+- 🐹 **Go** → sharpening backend skills with a performance-first mindset
 
 ## 📈 GitHub Stats
 
@@ -26,6 +27,7 @@
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white)
 ![Obsidian](https://img.shields.io/badge/Obsidian-483699?logo=obsidian&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 
 ## 📬 Connect
 
