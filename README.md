@@ -34,3 +34,4 @@
 <!-- - 📝 [My Obsidian Plugins & Scripts](https://github.com/YOURUSERNAME) -->
 
 - 💼 [LinkedIn](https://linkedin.com/in/snelling-andrew)
+- 🌐 [Xing](https://www.xing.com/profile/Andrew_Snelling)
