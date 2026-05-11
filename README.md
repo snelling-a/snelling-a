@@ -1,15 +1,7 @@
 # Hi, I'm Andrew 👋
 
-🚀 Fullstack Developer @ContractHero  
+🚀 Fullstack Engineer @Tanso  
 ⚡ TypeScript | React | NestJS | Fastify | GraphQL  
-🛠 Building **MetadataTypes** (performance-focused Obsidian plugin)
-
-## 🏗️ Current Focus
-
-- 🗂️ **MetadataTypes** → scalable metadata engine for [Obsidian](https://obsidian.md/plugins)
-- 🎹 **Neovim** → building a lean, fast, Lua-first config
-- 💼 **ContractHero** → shipping features in a TypeScript + NestJS stack
-- 🐹 **Go** → sharpening backend skills with a performance-first mindset
 
 ## 📈 GitHub Stats
 
@@ -30,8 +22,6 @@
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 
 ## 📬 Connect
-
-<!-- - 📝 [My Obsidian Plugins & Scripts](https://github.com/YOURUSERNAME) -->
 
 - 💼 [LinkedIn](https://linkedin.com/in/snelling-andrew)
 - 🌐 [Xing](https://www.xing.com/profile/Andrew_Snelling)
